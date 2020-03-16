@@ -1,0 +1,169 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #121212;
+  font: normal 14px Helvetica, sans-serif;
+  color: white;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* GENERAL */
+.section-header {
+  display: inline-block;
+  border-bottom: 2px solid white;
+  text-transform: lowercase;
+  font-size: 56px;
+  padding-bottom: 12px;
+  padding-right: 60px;
+}
+
+.invert {
+  background: white;
+  color: #121212;
+}
+
+/* HERO */
+#hero {
+  text-align: center;
+  height: 400vh;
+}
+
+#hero-displayer {
+  height: 250vh;
+  padding-top: 50vh;
+}
+
+#header {
+  height: 100%;
+}
+
+#portrait {
+  border-radius: 100%;
+}
+
+#name {
+  position: sticky;
+  top: 40px;
+  font-size: 56px;
+}
+
+#title {
+  font-size: 32px;
+}
+
+/* ABOUT */
+#about {
+  /* height: 400vh; */
+}
+
+#about-displayer {
+  padding: 0 5%;
+}
+
+#about h1 {
+  position: sticky;
+  top: 0px;
+}
+
+#about h2 {
+  font-size: 32px;
+}
+
+#about section {
+  margin: 150vh 0;
+}
+
+#about ul {
+  position: sticky;
+  top: 140px;
+  height: 500vh;
+}
+
+#about li {
+  position: sticky;
+  font-size: 18px;
+  margin: 80vh 0;
+}
+
+#about li:nth-child(1) {
+  top: 140px;
+}
+
+#about li:nth-child(2) {
+  top: 170px;
+}
+
+#about li:nth-child(3) {
+  top: 200px;
+}
+
+#about li:nth-child(4) {
+  top: 230px;
+}
+
+#about li::after {
+  content: '';
+  position: absolute;
+  top: calc(50% - 7px);
+  left: -22px;
+  border-radius: 16px;
+  border: 2px dotted white;
+  width: 8px;
+  height: 8px;
+}
+
+.about-subheader {
+  position: sticky;
+  top: 100px;
+  text-transform: lowercase;
+}
+
+#fun {
+  height: 600vh;
+}
+
+#fun h2 {
+  margin-bottom: 100vh;
+}
+
+#fun-carousel {
+  position: sticky;
+  top: 160px;
+  width: 100%;
+  height: 50vh;
+  padding-top: 40px;
+  overflow-x: hidden;
+}
+
+.fun-activity {
+  position: absolute;
+  border: 1px solid white;
+  width: 100%;
+  padding: 40px;
+}
+
+.fun-activity h3 {
+  position: absolute;
+  top: -18px;
+  left: 16px;
+  font-size: 24px;
+  padding: 4px 8px;
+}
+
+.fun-activity:nth-child(1) {
+  left: 0;
+}
+
+.fun-activity:nth-child(2) {
+  left: 100%;
+}
